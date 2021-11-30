@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url('fonts/OpenSans-Bold.ttf');
+}
+
+.container {
+    -fx-background-color: white;
+    -fx-padding: 20px;
+    -fx-margin-left: auto;
+    -fx-margin-right: auto;
+}
+
+.title-login {
+    -fx-font-size: 20;
+    -fx-font-family: "OpenSans";
+}
+
+.label {
+    -fx-font-family: "OpenSans";
+    -fx-text-fill: #7d7d7d;
+}
+
+.text {
+    -fx-font-weight: bold;
+    -fx-font-family: "OpenSans";
+}
+
+.error {
+    -fx-text-fill: red;
+    -fx-font-family: "OpenSans";
+}
+
+.input {
+    -fx-padding: 10px;
+    -fx-background-color: #f4f7fc;
+    -fx-border-width: 2;
+    -fx-border-radius: 4;
+    -fx-background-insets: 0;
+    -fx-border-color: #ccc;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 15;
+}
+
+.button {
+    -fx-padding: 10px;
+    -fx-background-color: #1C1B1B;
+    -fx-background-radius: 7;
+    -fx-border-width: 0 3 3 0;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 15;
+    -fx-font-family: "OpenSans";
+}
+
+
+
+.table-view {
+    -fx-base: #1d1d1d;
+    -fx-control-inner-background: #1d1d1d;
+    -fx-background-color: #1d1d1d;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-padding: 5;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-size: 35;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: transparent;
+    -fx-border-color: 
+        transparent
+        transparent
+        derive(-fx-base, 80%) 
+        transparent;
+    -fx-border-insets: 0 10 1 0;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 10pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-alignment: center-left;
+    -fx-opacity: 1;
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: -fx-focus-color;
+}
+
+.table-row-cell:empty {
+    -fx-background-color: white;
+}
+ 
+.table-row-cell:empty .table-cell {
+    -fx-border-width: 0px;
+}
