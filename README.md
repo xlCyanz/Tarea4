@@ -2,6 +2,11 @@
 
 Welcome to CRUD in Java. Here is a guide where the structure of the project is explained.
 
+## Project Operation
+
+Explanation of how the project works on video
+https://www.youtube.com/watch?v=4PdS4w8RkAA
+
 ## Folder Structure
 
 The project contains several important folders:
