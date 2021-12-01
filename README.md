@@ -12,7 +12,7 @@ The project contains several important folders:
 - `src/scenes`: the folder containing the scenes.
 - `src/utils`: the folder containing the utils.
 - `lib`: the folder to maintain dependencies.
-## Dependency Management
+## Dependency
 
 - `mongo-java-driver`: Make connections to the database.
 - `javax.xml.bing`: Required to create the UI.
