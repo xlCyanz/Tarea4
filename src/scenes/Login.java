@@ -85,6 +85,7 @@ public class Login {
                     container.getChildren().add(5, error);
                 } else {
                     Boolean loginResponse = form.Login(username, password);
+                    
                     if(loginResponse) {
                         Scene dahboardScene = new Dashboard(controllerStage).Scene();
                         controllerStage.changeScene(dahboardScene);

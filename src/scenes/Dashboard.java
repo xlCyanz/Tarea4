@@ -179,7 +179,7 @@ public class Dashboard {
             try {
                 JSONObject mainObject = new JSONObject(document.toJson().toString());
 
-                final String first_name = mainObject.getString("firstname");
+                final String first_name = mainObject.getString("firstname");    
                 final String last_name = mainObject.getString("lastname");
                 final String user_name = mainObject.getString("username");
                 final String email = mainObject.getString("email");
